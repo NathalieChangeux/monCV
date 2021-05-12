@@ -1,0 +1,128 @@
+.en-tete {
+  background: no-repeat right/cover;
+  background-color: #f3b4d7;
+  display: flex;
+  height: 120px;
+  min-width: 120px;
+  align-items: center;
+  font-style: italic;
+  font-size: 1em;
+  text-shadow: 1px 1px 1px rgb(250, 3, 217);
+  color: rgb(231, 24, 24);
+}
+/*formulaire*/
+.main-header .main-nav ul {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  margin: 5px auto;
+}
+
+.main-header .main-nav ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.main-header .main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/*titre et sous-titre centré et italique*/
+.site-title {
+  text-align: center;
+  font-style: italic;
+  font-size: 3em;
+  text-shadow: 1px 1px 1px rgb(250, 3, 217);
+  margin: 0.5em 5em;
+}
+
+.h2{
+color: #fc03be;
+}
+
+.h4{
+  color: #fc03be;
+  font-style: oblique;
+}
+
+.titrescompetences{
+background-color: #f3b4d7;
+}
+
+/*photo format ovale et à droite - border-radius=arrondi des bords*/
+.ovale {
+  border-radius: 100px;
+  width: 120px;
+  height: 175px;
+  color: rgb(250, 3, 217);
+  font-weight: bold;
+  position:fixed;
+  right: 0px
+}
+
+.coquelicot{
+margin-left: 50px;
+width: 120px;
+float: left;
+}
+
+.cadrehaut{
+    box-align: center;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid #fc03be;
+    text-align: center;
+    background: #f3b4d7;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 70%;
+  border-collapse: collapse;
+}
+td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  width: 20%;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/*pied-de page*/
+footer {
+  display: flex;
+  background-color: #f3b4d7;
+  justify-content: center;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.retourhautdepage {
+  text-align: right;
+  font-style: italic;
+  font-size: 1em;
+}
+
+section {
+    display: inline-flex;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+}
+
